@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - entry point
- * 
+ * Emix Code 
  * Description: Prints diagonals
  *@size: size of the triangle
  * Return: void
