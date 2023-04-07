@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * Reverse recursion - print a string in reverse
- * @n - string
- * Return -Always 0
+ * _print_rev_recursion -  print a string in reverse
+ * @s:  string
+ * Return: Always 0
  */
 
 void _print_rev_recursion(char *s)
 {
-	if (*n)
+	if (*s)
 	{
-		_print_rev_recursion(n + 1);
-		_putcher(*n);
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
 }
