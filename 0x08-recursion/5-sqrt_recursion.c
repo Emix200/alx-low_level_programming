@@ -11,7 +11,7 @@
 int check(int x, int y)
 {
 	if (x * x == y)
-		return (a);
+		return (x);
 	if (x * x > y)
 		return (-1);
 	return (check(x + 1, y));
