@@ -6,8 +6,7 @@
  * @argc: arguement count
  * @argv: arguement vector
  *
- * Error: return 1
- * return: always 0
+ * Return: always 0
  */
 int main(int argc, char **argv)
 {
