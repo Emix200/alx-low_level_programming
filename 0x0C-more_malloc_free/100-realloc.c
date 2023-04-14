@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _realloc -  reallocates a memory block
- * @old_size:  size, in bytes, of the allocated space for ptr
- * @new_size:  size, in bytes, of the allocated space for ptr
- * ptr:   size, in bytes, of the allocated space for ptr
+ * _realloc - reallocates a memory block
+ * @old_size: size, in bytes, of the allocated space for ptr
+ * @new_size: size, in bytes, of the allocated space for ptr
+ * @ptr: size, in bytes, of the allocated space for ptr
  *
  * Return: NULL
  */
