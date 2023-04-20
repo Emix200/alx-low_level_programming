@@ -7,7 +7,7 @@
  *
  * Return: 0
  */
-void print_numbers(const char *separator, const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int x;
 	va_list ap;
