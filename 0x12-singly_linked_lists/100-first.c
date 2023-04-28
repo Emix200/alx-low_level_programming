@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * myStartupFun -apply the constructor feature
@@ -6,7 +6,7 @@
  *
  * Return: ...
  */
-void myStartupFun(void) __attribute__ ((construvtor));
+void myStartupFun(void) __attribute__ ((constructor));
 
 /**
  * myStartupFun - execution of myStartupFun
