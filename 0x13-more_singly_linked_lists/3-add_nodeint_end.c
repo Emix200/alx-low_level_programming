@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <stdlib.h>
 
 /**
@@ -30,6 +30,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	{
 		y = y->next;
 	}
-	y->next = new;
+	y->next = x;
 	return (x);
 }
